@@ -1,0 +1,8 @@
+cloudscraper>=1.2
+requests>=2.28
+pymongo>=4.0
+
+# Notes:
+# - `cloudscraper` depends on `requests` but we list both explicitly.
+# - `pymongo` is included because the project wraps MongoDB collections; if you
+#   don't use MongoDB directly you can remove it.
